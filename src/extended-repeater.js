@@ -32,7 +32,6 @@ function repeater(str, options) {
 
   return (new Array(repeatTimes)).fill(fullStr).join(separator);
 }
-re
 
 module.exports = {
   repeater
